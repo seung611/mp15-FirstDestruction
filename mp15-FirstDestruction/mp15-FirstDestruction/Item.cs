@@ -6,7 +6,7 @@ public class Item
     Item[] items = new Item[10];
     private int count = 0;
     
-    public int Count { get { return count; } };
+    public int Count { get { return count; } }
     
     public string Name { get; set; }
 
