@@ -20,4 +20,9 @@ public class Item
         items[count] = item;
         count++;
     }
+
+    public void PrintItemName(int index)
+    {
+        Console.WriteLine(items[index].Name);
+    }
 }
